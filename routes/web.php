@@ -15,7 +15,7 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', function () {
-    return view('welcome',['tittle' =>'Belajar Laravel Izzo']);
+    return redirect('/lacak');
 });
 
 Route::get('lacak', [HomeController::class, 'index']);
