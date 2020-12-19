@@ -5,9 +5,8 @@
     <title>Ship Tracker</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" href="ship.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="{{ asset('style/assets/css/normalize.css') }}">
     <link rel="stylesheet" href="{{ asset('style/assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('style/assets/css/font-awesome.min.css') }}">
@@ -30,7 +29,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href=""><img class="user-avatar rounded-circle" src="{{ asset('style/images/shiprack2.png') }}"></a>
+                <a class="navbar-brand" href=""><img class="user-avatar rounded-circle" src="{{ asset('style/images/ship.png') }}"></a>
                 <a class="navbar-brand hidden" href="">SR</a>
             </div>
 
