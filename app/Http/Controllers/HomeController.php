@@ -9,7 +9,7 @@ class HomeController extends Controller
     public function index(Request $request)
     {
 
-        return view('lacak', ['data' => null]);
+        return view('lacak', ['data' => null,  'error' => null]);
     }
 
     public function lacak(Request $request)
@@ -44,12 +44,11 @@ class HomeController extends Controller
         //cek status code  
         
         if(!isset($response)){
-            return abort(404);
-          
+            return view('lacak', ['data' => null,'error' => 'Resi Tidak Ditemukan!']);
         }
 
         // return view main dengan result yg didapat
 
-        return view('lacak', ['data' => $response['data']]);
+        return view('lacak', ['data' => $response['data'], 'error' => null]);
     }
 }

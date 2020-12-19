@@ -118,7 +118,9 @@
                     <div class="page-title">
                         <h1>Ship Tracker Application</h1>
                     </div>
+                    
                 </div>
+               
             </div>
             {{-- <div class="col-sm-8">
                 <div class="page-header float-right">
@@ -135,6 +137,13 @@
 
         <div class="content mt-3">
             <div class="animated fadeIn">
+                @if($error)
+
+                    <div class="alert alert-danger" role="alert">
+                        {{$error}}
+                    </div>
+                @endif
+                
                 <form method="POST" action="lacak">
                     @csrf
                     <label for="resi">Input Resi</label>
