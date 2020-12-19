@@ -28,7 +28,7 @@ class HomeController extends Controller
 
         
         $query_fields = [
-            'api_key' => 'ca9ace13f59f71ab89598882e96cdcd14bba8770b72567dec39aea97669df8f6',
+            'api_key' => '5134c3b8eb0863e1de1c945c1d3a351b7615bdb60ae5c4ed4d5836608c52f088',
             'courier' => $data['kurir'],
             'awb' => $data['no_resi'],
         ];
