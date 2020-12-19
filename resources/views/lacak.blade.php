@@ -5,6 +5,7 @@
     <title>Ship Tracker</title>
     <meta name="description" content="Sufee Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="apple-touch-icon" href="apple-icon.png">
     <link rel="shortcut icon" href="ship.ico">
     <link rel="stylesheet" href="{{ asset('style/assets/css/normalize.css') }}">
